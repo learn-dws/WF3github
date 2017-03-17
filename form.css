@@ -6,6 +6,7 @@
 }
 label{
     color: #ebc6ce;
+    font-family: 'Knewave', cursive;
 }
 label, input:not([type="submit"]), textarea{
 	border: none;
