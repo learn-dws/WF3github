@@ -15,6 +15,9 @@ label, input:not([type="submit"]), textarea{
 	padding: 12px;
 	width: 100%;
 }
+textarea{
+    height:500px;
+}
 input[type="submit"]{
 	border:0;
 }
