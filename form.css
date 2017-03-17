@@ -1,10 +1,13 @@
 
-.form{
+.formulaire{
 	width: 600px;
 	margin: 10px auto;
 	padding: 10px;
 }
-input:not([type="submit"]){
+label{
+    color: #ebc6ce;
+}
+label, input:not([type="submit"]), textarea{
 	border: none;
 	border-bottom: 1px solid #ccc;
 	display: block;
@@ -23,6 +26,6 @@ input[type="submit"]{
 	color: #fafafa;
 	padding: 10px 0;
 	font-size: 1rem;
-	border-radius: 4px;
+	border-radius: 15px;
 }
 
