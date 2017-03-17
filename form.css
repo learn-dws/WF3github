@@ -1,12 +1,28 @@
-label, input:not([type="submit"])  {
-    display: block;
-    width: 100%;
+
+.form{
+	width: 600px;
+	margin: 10px auto;
+	padding: 10px;
+}
+input:not([type="submit"]){
+	border: none;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding: 12px;
+	width: 100%;
+}
+input[type="submit"]{
+	border:0;
+}
+.btn{
+	width: 200px;
+	line-height: 30px;
+	display: block;
+	margin: 10px auto;
+	background: #0c80d3 none repeat scroll;
+	color: #fafafa;
+	padding: 10px 0;
+	font-size: 1rem;
+	border-radius: 4px;
 }
 
-input:nth-child(4){
-
-}
-
-input:nth-of-type(2){
-    
-}
