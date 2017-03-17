@@ -1,4 +1,22 @@
+/*
+Reset
 
+*/
+*{
+    /*Supprimer toutes les marges*/
+    margin:0;
+    padding:0;
+    /*Intégrer les paddings et border dans la taille des blocs*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    /* Faire en sorte d'utiliser 1rem = 10px*/
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;/*=> 15px*/
+}
 .formulaire{
 	width: 600px;
 	margin: 10px auto;
